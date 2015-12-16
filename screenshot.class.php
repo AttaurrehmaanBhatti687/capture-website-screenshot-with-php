@@ -28,7 +28,7 @@ class screenShot{
     
     //Your screenshotLayer API key
     //Available at https://screenshotlayer.com/product
-    private $apiKey = 'c05db620ae492f26ec6f75282c577fee';
+    private $apiKey = '';
     
     //API endpoint
     //only needs to change if the API changes location
@@ -36,7 +36,7 @@ class screenShot{
     
     //Secret Keyword defined in your screenshotLayer dashboard
     //leave blank if you have not activated this feature
-    private $secretKey = 'e4a0ACTOclZMjNgeVP3HdV9B6OZmOm2G';
+    private $secretKey = '';
     
     //API key/value pair params
     public $params = array();
